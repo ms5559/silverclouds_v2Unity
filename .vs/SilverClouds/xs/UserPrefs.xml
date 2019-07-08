@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{3BA82EAA-8F1E-37A4-8211-BFCB0F7659BF}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Hover.cs">
+    <Files>
+      <File FileName="Assets/Scenes/FloatingObject.cs" Line="28" Column="67" />
+      <File FileName="Assets/Scripts/Hover.cs" Line="42" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

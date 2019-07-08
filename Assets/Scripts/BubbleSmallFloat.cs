@@ -1,0 +1,44 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class MiniBubbleBehavior : MonoBehaviour {
+
+	public float amplitude;
+	public float Yspeed;
+	public float Xspeed;
+	public float tempY;
+  	public float tempX;
+  	public float tempZ;
+	public Vector3 tempPos;
+	public Vector3 originalPos;
+	public float startTime;
+ 	public GameObject previewScreen;
+
+void Start () {
+      
+    tempY = transform.position.y;
+    tempX = transform.position.x;
+    tempPos = this.transform.position;
+    amplitude *= Random.Range(-1f,1f);
+    Xspeed += Random.Range(0.0001f,0.00015f);
+    Yspeed += Random.Range(-0.3f,0.9f);
+    tempPos.z += Random.Range(-0.009f,0.009f);
+}
+ 
+void Update () {        
+	startTime = Time.time;
+	float newTime = Time.time - startTime;
+    tempPos.y = tempY + amplitude * Mathf.Sin (Yspeed * startTime);
+    tempPos.x += Xspeed;
+    this.transform.position = tempPos;    
+
+
+	}
+
+void OnMouseDown(){
+
+
+	}
+
+}
